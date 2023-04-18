@@ -14,7 +14,8 @@ while satisfying joint position and velocity limits.
 
 The core solvers in this library operate at the velocity-level, although we
 also include a position-level solver.
-
+SNS-IK库是一个用于计算冗余运动链上逆运动学问题的快速解决方案的库。它特别擅长处理多个优先任务目标，同时满足联合位置和速度限制。
+该库中的核心解算器在速度级别上运行，尽管我们也包括位置级别的解算器。
 ## Algorithm Overview:
 
 **SNS Velocity IK:** This is the core algorithm developed by Fabrizio.
